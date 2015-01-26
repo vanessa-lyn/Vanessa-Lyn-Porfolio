@@ -1,0 +1,15 @@
+/*   
+Theme Name: Pure Theme Child
+Theme URI: IntoTheWoods's-homepage
+Description: A child theme of Pure theme to facilitate designs for the campaign
+Author: Vanessa Garcia
+Author URI: 
+Template: pure-theme
+Version: 01
+.
+General comments/License Statement if any.
+.
+*/
+
+/*importing twentyforteen theme styles*/
+@import url(../pure-theme/style.css);
