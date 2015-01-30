@@ -239,7 +239,7 @@ class portfolio_shortcode
                         <div data-category="' . $echoallterm . '" class="' . $echoallterm . ' element portfolio_item item">
                             <div class="innerpadding">
                                 <div class="portfolio_item_img featured_item_fadder">
-                                    <a ' . $target . ' href="' . $linkToTheWork . '">
+                                    <a href="' . get_permalink() . '">
                                         <img src="' . aq_resize($featured_image[0], "1170", ($view_type == "Masonry" ? null : "1170"), true, true, true) . '" alt="">
                                     </a>
                                 </div>

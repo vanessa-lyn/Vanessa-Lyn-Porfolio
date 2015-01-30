@@ -1,10 +1,10 @@
 /*   
 Theme Name: Pure Theme Child
-Theme URI: IntoTheWoods's-homepage
-Description: A child theme of Pure theme to facilitate designs for the campaign
+Theme URI: 
+Description: A child theme of twentyforteen to facilitate designs for the campaign
 Author: Vanessa Garcia
-Author URI: 
-Template: pure-theme
+Author URI: your-URI
+Template: 
 Version: 01
 .
 General comments/License Statement if any.
@@ -12,4 +12,5 @@ General comments/License Statement if any.
 */
 
 /*importing twentyforteen theme styles*/
-@import url(../pure-theme/style.css);
+/*@import url(../pure-theme/style.css);*/
+

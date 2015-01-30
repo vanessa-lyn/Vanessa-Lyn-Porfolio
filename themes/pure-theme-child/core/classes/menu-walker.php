@@ -2,7 +2,7 @@
 
 class gt3_menu_walker extends Walker
 {
-
+    // echo('walker');
     function __construct($showtitles)
     {
         $this->showtitles = $showtitles;

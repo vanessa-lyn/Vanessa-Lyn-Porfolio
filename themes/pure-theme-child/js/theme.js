@@ -20,7 +20,7 @@ jQuery(document).ready(function ($) {
     });
 
     jQuery('.wpcf7-submit').wrap('<div class="temp_submit_cf7"></div>');
-    jQuery('.temp_submit_cf7').html('<div class="shortcode_button btn_small btn_type5"><span class="ico_cont"><span class="ico_fader"></span><i class="ico_this icon-share-alt"></i></span><span class="btn_text">SEND COMMENT!</span></div>');
+    jQuery('.temp_submit_cf7').html('<div class="shortcode_button btn_small btn_type5"><span class="ico_cont"><span class="ico_fader"></span><i class="ico_this icon-share-alt"></i></span><span class="btn_text">SEND MESSAGE</span></div>');
     jQuery('.temp_submit_cf7 .shortcode_button').live('click', function () {
         jQuery(this).parents(".wpcf7-form").submit();
     });
