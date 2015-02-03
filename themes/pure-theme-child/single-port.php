@@ -207,8 +207,11 @@ update_post_meta(get_the_ID(), "post_views", (int)$post_views + 1);
                                             echo "<div class='block_post_meta_stand preview_skills'><i class='" . $skillvalue['icon'] . "'></i> " . $skillvalue['name'] . (strlen($skillvalue['name'])>0 ? ": " : "") . $skillvalue['value'] . "</div>";
                                         }
                                     }
+                                    //$get_the_excerpt();
                                     ?>
                                 </div>
+                            </div>
+                            <div class="span12">
                                 <article>
                                     <?php
                                     the_content(__('Read more!', 'theme_localization'));
