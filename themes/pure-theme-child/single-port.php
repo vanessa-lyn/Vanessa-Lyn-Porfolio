@@ -172,6 +172,7 @@ update_post_meta(get_the_ID(), "post_views", (int)$post_views + 1);
                                     echo '<h1 class="entry-title blogpost_title">' . get_the_title() . '</h1>';
                                 }
                                 ?>
+
                                 <div class="preview_meta">
                                     <div class="block_likes">
                                         <div class="post-views"><i class="stand_icon icon-eye-open"></i>
@@ -209,6 +210,10 @@ update_post_meta(get_the_ID(), "post_views", (int)$post_views + 1);
                                     }
                                     //$get_the_excerpt();
                                     ?>
+                                </div>
+
+                                <div class='excerpt'>
+                                
                                 </div>
                             </div>
                             <div class="span12">
