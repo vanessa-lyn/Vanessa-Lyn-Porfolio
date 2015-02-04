@@ -14,3 +14,28 @@ General comments/License Statement if any.
 /*importing twentyforteen theme styles*/
 /*@import url(../pure-theme/style.css);*/
 
+
+
+.goal {
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+}
+
+article h2, .goal h2 {
+    font-family:  "Open Sans";
+    font-weight: bold;
+    letter-spacing: 0;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+article h2 {
+    margin-top: 40px;
+}
+
+.home .entry-title{
+    display: none;
+}
