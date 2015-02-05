@@ -39,7 +39,6 @@ function gt3_get_theme_sidebars_for_admin()
 function gt3_get_theme_option($optionname, $defaultValue = "")
 {
     $returnedValue = get_option(GT3_THEMESHORT . $optionname, $defaultValue);
-    console.log($returnedValue);
 
     if (gettype($returnedValue) == "string") {
         return stripslashes($returnedValue);
