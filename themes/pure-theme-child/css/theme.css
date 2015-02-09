@@ -2180,8 +2180,10 @@ table td, table th {
 /* iPhones */
 @media only screen and (max-width: 568px) {
     .container {
-        width: 500px;
+        /*width: 500px;*/
         padding: 0 20px;
+        max-width: 100%;
+        width: auto;
     }
 
     .portfolio_item {
@@ -2421,6 +2423,14 @@ table td, table th {
     .type5 .fl {
         margin: 0 !important;
     }
+
+    .span3, .span4, .span6, .span8 {
+        width: 100% !important;
+    }
+
+    .row [class*=span] {
+        margin-left: 0 !important;
+    }
 }
 
 /* Only Vertical iPhone */
@@ -2442,7 +2452,16 @@ table td, table th {
 /* Vertical iPad */
 @media only screen and (min-width: 569px) and (max-width: 768px) {
     .container {
-        width: 740px;
+        max-width: 740px;
+        width: auto;
+        padding: 0 20px;
+    }
+    .span3, .span4, .span6, .span8 {
+        width: 100% !important;
+    }
+
+    .row [class*=span] {
+        margin-left: 0 !important;
     }
 
     .portfolio_item {
@@ -2474,6 +2493,12 @@ table td, table th {
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .container {
         width: 900px;
+    }
+}
+
+@media only screen and (max-width: 768) {
+    .span3, .span4, .span6, .span8, .row .span3, .row .span4, .row .span6, .row .span8 {
+        width: 100% !important;
     }
 }
 
